@@ -17,7 +17,7 @@ $.typeahead({
         "background-color": "#fff"
     },
     backdropOnFocus: true,
-    cache: "sessionStorage",
+    cache: false, // "sessionStorage",
     compression: true,
     cancelButton: false,
     template: function () {
